@@ -1,0 +1,154 @@
+.Blog .blog {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 30px;
+}
+.Blog .blog .blog-one {
+  font-family: Jost;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 70px;
+  color: rgb(51, 51, 51);
+}
+.Blog .blog .blog-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Blog .blog .blog-two .blogs-first {
+  display: flex;
+  flex-direction: column;
+}
+.Blog .blog .blog-two .blogs-first .firsts-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/50d8/ee10/e4b798415ac7bd720eb6686b0d8cb52d?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NqaLWFTgWyDzyzGx-0Ld3R-zGgZ8J3UMZB87q5EzjBJwuk2bhaCK7p-qS227YRBW0qwQy6ashzmFaj5xSBp1yPK9qBp6ajgqGnw1Yz8IGszEp~cqRJhoieDvcWcpDCCekSndjoKnuXdp51pB1AHgocbzpRbw6bkuQTK6vIbABjoW1FktpG6gQG9vKjr7DX9~OjYIuG4ejvlEJKN0T5V2Kp4rGpNUrzNpXNsQTaTRvTU2EtlAMlt4t2X86WK911noOo1JJUWF9rReDrzjzT0ZDm93On~X2FrilwQwnoZr8iljTrbrnbappsiGCrcBIrm~kTLtWWPDz3jW-GpUlgtNcg__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 376.67px;
+  height: 300px;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.9px;
+  color: rgb(255, 255, 255);
+}
+.Blog .blog .blog-two .blogs-first .firsts-two p {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgb(51, 51, 51);
+  width: 336.67px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Blog .blog .blog-two .blogs-first .firsts-three {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Blog .blog .blog-two .blogs-first .firsts-three p {
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.01px;
+  color: rgb(225, 175, 147);
+}
+.Blog .blog .blog-two .blogs-first .firsts-three .icons {
+  color: rgb(225, 175, 147);
+}
+.Blog .blog .blog-two .blogs-secend {
+  display: flex;
+  flex-direction: column;
+}
+.Blog .blog .blog-two .blogs-secend .firsts-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/15cb/7649/23424ff120bfbcc9b0e688af263677cd?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CEZ6di2ka6RRRt~TMsHpaMrxp2lL0FrN-0gd-kamW6CwreTvOUQw46Yrey036JhNmV9sih4zYZKiG3HR4TdmQFb-EnEtwzN185ykyFhbwufpVP0dH1QrqgxMqtZU5fJdIwS8mUBPR6KPPNIOQJ1eDFTfJYjcYCcBAMc6wk4IkxS7HUJOmB54bLO7yaZF3YgEsdU5t7jqip2OWtzH1ZGkYvhWQU6V-5jHjks0c467Km-wlFb13aSCXqXM8Wxjt1momPjBwe7ZJGAz0GT7~s4Zq-jUWl-AOjQaIKdAKOKma2mKg9ezVSpWFtHFppc35PjUcwxYh0knae-S3~RTIAjpSg_");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 376.67px;
+  height: 300px;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.9px;
+  color: rgb(255, 255, 255);
+}
+.Blog .blog .blog-two .blogs-secend .firsts-two p {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgb(51, 51, 51);
+  width: 336.67px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Blog .blog .blog-two .blogs-secend .firsts-three {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Blog .blog .blog-two .blogs-secend .firsts-three p {
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.01px;
+  color: rgb(225, 175, 147);
+}
+.Blog .blog .blog-two .blogs-secend .firsts-three .icons {
+  color: rgb(225, 175, 147);
+}
+.Blog .blog .blog-two .blogs-three {
+  display: flex;
+  flex-direction: column;
+}
+.Blog .blog .blog-two .blogs-three .firsts-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/b963/a93a/72f85ee92ac9fd3b310eef65fe262f4a?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nso4~zTxpdxNE0SteU0xH1JY-Opo8Hqe6kU9m8vX3ZLwtu1AMNN4IJOHwI10VJCJitfpDZoKAdhp6FiZvTA2Otn~94iT73a1J2VjXCr6QnQGHwBgoS1FsyGbkBEGcPyFXMlppaczGYAxAWNJW2h4PzbZQhK0J6m6JQQxXgsV1bZnVeLVvX2yUxa-2jLaKetKDxNiJ8OAsFORtz4EkK5iW~wISCEtz5KxTAnit-y3EqIPMdGyH0kBKf05qozbnWbH3M02tsNdzQKZamS3m7K4Uo562otm0AE9LMENMJXr~SbdWzy6X2JGTPYlctqolwXxXR1uJLH35JQQvSwsF9vwtg__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 376.67px;
+  height: 300px;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.9px;
+  color: rgb(255, 255, 255);
+}
+.Blog .blog .blog-two .blogs-three .firsts-two p {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgb(51, 51, 51);
+  width: 336.67px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Blog .blog .blog-two .blogs-three .firsts-three {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Blog .blog .blog-two .blogs-three .firsts-three p {
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.01px;
+  color: rgb(225, 175, 147);
+}
+.Blog .blog .blog-two .blogs-three .firsts-three .icons {
+  color: rgb(225, 175, 147);
+}/*# sourceMappingURL=Blog.css.map */

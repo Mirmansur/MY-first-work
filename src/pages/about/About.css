@@ -1,0 +1,327 @@
+.About {
+  margin-top: 200px;
+}
+.About .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+}
+.About .about .about-one {
+  display: flex;
+  justify-content: space-between;
+}
+.About .about .about-one .ones h2 {
+  font-family: Jost;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 70px;
+  color: rgb(225, 175, 147);
+}
+.About .about .about-one .ones h3 {
+  font-family: Jost;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 70px;
+  color: rgb(51, 51, 51);
+}
+.About .about .about-one .twos .twos-firs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.About .about .about-one .twos .twos-firs p {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28.9px;
+  color: rgb(133, 133, 133);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.About .about .about-one .twos .twos-firs p:hover {
+  color: rgb(225, 175, 147);
+}
+.About .about .about-one .twos .twos-secend {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.About .about .about-one .twos .twos-secend p {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.9px;
+  color: rgb(51, 51, 51);
+  width: 710px;
+}
+.About .about .about-two img {
+  width: 1200px;
+  height: 579px;
+}
+.About .Hous {
+  background-color: rgb(237, 243, 245);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.About .Hous .hous {
+  width: 910px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.About .Hous .hous .hous-one h2 {
+  font-family: Jost;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 70px;
+  color: rgb(51, 51, 51);
+}
+.About .Hous .hous .hous-one p {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.9px;
+  color: rgb(51, 51, 51);
+  width: 710px;
+  margin-top: 20px;
+}
+.About .Hous .hous .hous-one button {
+  background-color: rgb(225, 175, 147);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28.9px;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.About .Hous .hous .hous-two img {
+  width: 448px;
+  height: 568px;
+}
+.About .Table {
+  margin-top: 100px;
+}
+.About .Table .tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 30px;
+}
+.About .Table .tab .tab-one h2 {
+  font-family: Jost;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 70px;
+  color: rgb(51, 51, 51);
+  width: 720px;
+}
+.About .Table .tab .tab-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.About .Table .tab .tab-two .tabs-first .first-check {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.About .Table .tab .tab-two .tabs-first .first-check button {
+  color: white;
+  background-color: rgb(225, 175, 147);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none !important;
+}
+.About .Table .tab .tab-two .tabs-first .first-check p {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34.68px;
+  color: rgb(0, 0, 0);
+}
+.About .Table .tab .tab-two .tabs-secend .first-check {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 45px;
+}
+.About .Table .tab .tab-two .tabs-secend .first-check button {
+  color: white;
+  background-color: rgb(225, 175, 147);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none !important;
+}
+.About .Table .tab .tab-two .tabs-secend .first-check p {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34.68px;
+  color: rgb(0, 0, 0);
+}
+.About .Ipoteka .ipoteka {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.About .Ipoteka .ipoteka .ipo-one {
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 70px;
+  color: rgb(51, 51, 51);
+}
+.About .Ipoteka .ipoteka .ipo-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1, 440px;
+  height: 361px;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px 0px rgba(15, 17, 18, 0.05);
+  margin-top: 30px;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first .first-one {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first .first-one p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.12px;
+  color: rgb(133, 133, 133);
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first .first-one input {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(234, 234, 234);
+  padding: 15px 25px;
+  border-radius: 5px;
+  outline: none;
+  width: 300px;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first .first-one button {
+  background-color: rgb(225, 175, 147);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.12px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first .first-two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first .first-two p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.12px;
+  color: rgb(133, 133, 133);
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first .first-two input {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(234, 234, 234);
+  padding: 15px 25px;
+  border-radius: 5px;
+  outline: none;
+  width: 300px;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-first .first-two button {
+  background-color: rgb(225, 175, 147);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.12px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-secend {
+  width: 1px;
+  height: 192px;
+  background-color: rgba(84, 84, 84, 0.82);
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-three .three-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-three .three-one p {
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.01px;
+  color: rgb(179, 179, 179);
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-three .three-one h2 {
+  font-family: Jost;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 36.13px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-three .three-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-three .three-two p {
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.01px;
+  color: rgb(179, 179, 179);
+}
+.About .Ipoteka .ipoteka .ipo-two .ipo-three .three-two h2 {
+  font-family: Jost;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 36.13px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+}/*# sourceMappingURL=About.css.map */

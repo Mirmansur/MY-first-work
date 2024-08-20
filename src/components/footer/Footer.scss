@@ -1,0 +1,248 @@
+.Footer {
+  background: rgba(247, 247, 247, 1);
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    .footer-one {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px;
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .logo-two {
+          h3.belleza {
+            font-family: Belleza;
+            font-size: 21.97px;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+          }
+          p {
+            font-family: Bellefair;
+            font-size: 15.38px;
+            font-weight: 400;
+            color: rgba(166, 166, 166, 1);
+          }
+        }
+      }
+      .icons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .insta {
+          width: 25px;
+          height: 25px;
+          color: rgba(51, 51, 51, 1);
+        }
+        .teleg {
+          width: 25px;
+          height: 25px;
+          color: rgba(51, 51, 51, 1);
+        }
+        .what {
+          width: 23px;
+          height: 23px;
+          color: rgba(51, 51, 51, 1);
+        }
+        .face {
+          width: 30px;
+          height: 30px;
+          color: rgba(51, 51, 51, 1);
+        }
+      }
+    }
+    .footer-two {
+      width: 1240px;
+      height: 1.5px;
+      background: rgba(234, 234, 234, 1);
+    }
+    .footer-three {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      padding: 30px;
+      .three-one {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        h4 {
+          font-family: Jost;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 30px;
+          color: rgba(51, 51, 51, 1);
+        }
+        p {
+          font-family: Jost;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 28.9px;
+          color: rgba(51, 51, 51, 1);
+        }
+      }
+      .three-two {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        h4 {
+          font-family: Jost;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 30px;
+          color: rgba(51, 51, 51, 1);
+        }
+        p {
+          font-family: Jost;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 28.9px;
+          color: rgba(51, 51, 51, 1);
+        }
+      }
+    }
+    .footer-four {
+      width: 1240px;
+      height: 1.5px;
+      background: rgba(234, 234, 234, 1);
+    }
+    .footer-five {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+
+      img {
+        width: 130px;
+        height: 72px;
+      }
+      p {
+        font-family: Jost;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23.12px;
+        color: rgba(179, 179, 179, 1);
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Footer {
+    .footer {
+      .footer-two {
+        width: 728px;
+        height: 1.5px;
+        background: rgba(234, 234, 234, 1);
+      }
+      .footer-four {
+        width: 728px;
+        height: 1.5px;
+        background: rgba(234, 234, 234, 1);
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .Footer {
+    height: 760px;
+    width: 460px;
+    .footer {
+      .footer-one {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        gap: 20px;
+        .logo {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .logo-two {
+            h3.belleza {
+              font-family: Belleza;
+              font-size: 21.97px;
+              font-weight: 400;
+              color: rgba(51, 51, 51, 1);
+              width: 121px;
+            }
+            p {
+              font-family: Bellefair;
+              font-size: 15.38px;
+              font-weight: 400;
+              color: rgba(166, 166, 166, 1);
+            }
+          }
+        }
+        .icons {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .insta {
+            width: 25px;
+            height: 25px;
+            color: rgba(51, 51, 51, 1);
+          }
+          .teleg {
+            width: 25px;
+            height: 25px;
+            color: rgba(51, 51, 51, 1);
+          }
+          .what {
+            width: 23px;
+            height: 23px;
+            color: rgba(51, 51, 51, 1);
+          }
+          .face {
+            width: 30px;
+            height: 30px;
+            color: rgba(51, 51, 51, 1);
+          }
+        }
+      }
+      .footer-two {
+        width: 428px;
+        height: 1.5px;
+        background: rgba(234, 234, 234, 1);
+      }
+      .footer-three {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        .three-two {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          gap: 10px;
+          h4 {
+            font-family: Jost;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 30px;
+            color: rgba(51, 51, 51, 1);
+          }
+          p {
+            font-family: Jost;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28.9px;
+            color: rgba(51, 51, 51, 1);
+            width: 200px;
+          }
+        }
+      }
+      .footer-four {
+        width: 428px;
+        height: 1.5px;
+        background: rgba(234, 234, 234, 1);
+      }
+    }
+  }
+}

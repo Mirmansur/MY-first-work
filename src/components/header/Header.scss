@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Fredoka:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=  Bellefair&family=Belleza&family=Fredoka:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap");
+.Header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  padding: 20px;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .logo-two {
+        .belleza {
+          font-family: Belleza;
+          font-weight: bold;
+        }
+
+        p {
+          margin: 0;
+          font-size: 16px;
+          color: #333;
+        }
+      }
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      transition: transform 0.3s ease;
+      justify-content: space-around;
+
+      &.active {
+        transform: translateX(0);
+      }
+
+      .word {
+        display: flex;
+        gap: 20px;
+
+        a {
+          text-decoration: none;
+          color: #333;
+
+          p {
+            margin: 0;
+            cursor: pointer;
+            font-size: 16px; // Moslashtiring
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+
+            &:hover {
+              background-color: #f4a261; // Hover holatida rangni o'zgartirish
+              color: #fff;
+            }
+          }
+        }
+      }
+
+      .icons {
+        display: flex;
+        gap: 10px;
+
+        button {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: none;
+          cursor: pointer;
+          transition: color 0.3s;
+
+          .icon {
+            font-size: 24px; // Moslashtiring
+            color: #333;
+
+            &:hover {
+              color: #f4a261; // Hover holatida icon rangini o'zgartirish
+            }
+          }
+        }
+      }
+    }
+
+    .toggle-button {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #333;
+
+      @media (max-width: 768px) {
+        display: block;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      display: flex;
+      align-items: stretch;
+
+      .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff; // Shirinlik uchun fon rangi
+        position: absolute;
+        top: 60px; // Logo ostida bo'lishi uchun
+        left: 0;
+        z-index: 10;
+        border-bottom: 1px solid #f4a261; // Menyu ostida chiziq
+
+        &.active {
+          display: flex;
+        }
+
+        .word {
+          width: 100%;
+
+          a {
+            width: 100%;
+            padding: 10px;
+            border-bottom: 1px solid #f4a261; // Elementlar orasidagi chiziq
+
+            p {
+              font-size: 14px; // Moslashtiring
+            }
+          }
+        }
+
+        .icons {
+          margin-top: 10px;
+          justify-content: center;
+          padding: 10px;
+          background-color: #fff; // Icons uchun fon rangi
+        }
+      }
+
+      .toggle-button {
+        display: block;
+      }
+    }
+  }
+}
