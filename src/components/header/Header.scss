@@ -22,7 +22,7 @@
       gap: 10px;
 
       .logo-two {
-        .belleza {
+        h3 {
           font-family: Belleza;
           font-weight: bold;
         }
@@ -122,7 +122,6 @@
         top: 60px; // Logo ostida bo'lishi uchun
         left: 0;
         z-index: 10;
-        border-bottom: 1px solid #f4a261; // Menyu ostida chiziq
 
         &.active {
           display: flex;

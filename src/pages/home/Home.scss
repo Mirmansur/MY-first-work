@@ -9,6 +9,7 @@
     align-items: flex-end;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 
     .color {
       position: absolute;
@@ -106,6 +107,7 @@
           display: flex;
           align-items: center;
           justify-content: space-around;
+          flex-wrap: wrap;
           .boxss {
             width: 387px;
             height: 326px;
