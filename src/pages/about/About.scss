@@ -4,12 +4,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 30px;
     padding: 30px;
     .about-one {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap !important;
       .ones {
         h2 {
           font-family: Jost;
@@ -27,6 +27,9 @@
         }
       }
       .twos {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
         .twos-firs {
           display: flex;
           align-items: center;
@@ -145,6 +148,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
         margin-top: 40px;
         .tabs-first {
           .first-check {
@@ -302,6 +306,8 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
+            flex-wrap: wrap;
+
             gap: 50px;
             margin-bottom: 30px;
             p {
@@ -342,6 +348,68 @@
 
               color: rgba(51, 51, 51, 1);
             }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .About {
+    .about {
+      .about-one {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .about-two {
+        img {
+          width: 728px;
+          height: 454px;
+        }
+      }
+    }
+    .Hous {
+      .hous {
+        display: flex;
+        flex-wrap: wrap;
+        .hous-one {
+          h2 {
+            font-family: Jost;
+            font-size: 55px;
+            font-weight: 500;
+            line-height: 70px;
+            color: rgba(51, 51, 51, 1);
+            width: 610px;
+          }
+          p {
+            font-family: Jost;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28.9px;
+            color: rgba(51, 51, 51, 1);
+            width: 610px;
+            margin-top: 20px;
+          }
+          button {
+            background-color: rgba(225, 175, 147, 1);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-family: Jost;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 28.9px;
+            padding: 10px 30px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 30px;
+          }
+        }
+        .hous-two {
+          img {
+            width: 618px;
+            height: 668px;
           }
         }
       }
